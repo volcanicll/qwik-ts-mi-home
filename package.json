@@ -1,0 +1,36 @@
+{
+  "name": "qwik-device-panel",
+  "description": "A modern, high-performance web application built with Qwik and Vite for displaying and filtering a list of devices.",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "serve dist"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "volcanicll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/volcanicll/qwik-ts-mi-home"
+  },
+  "keywords": [
+    "qwik",
+    "vite",
+    "typescript",
+    "dashboard",
+    "panel",
+    "admin"
+  ],
+  "devDependencies": {
+    "serve": "^14.2.4",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "@builder.io/qwik": "^1.14.1"
+  }
+}
